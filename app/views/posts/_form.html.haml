@@ -1,0 +1,13 @@
+= simple_form_for @post do |f|
+  = f.input :title
+  %br
+  = f.input :content
+  = f.submit
+
+  / - if @post.errors.any?  #error_explanation
+  /    %h2
+  /      = Errors:
+
+  /     %ul
+  /      - @post.errors.full_messages.each do |msg|
+  /        %li= msg

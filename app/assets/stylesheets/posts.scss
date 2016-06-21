@@ -1,0 +1,413 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('blue_bgd.jpg');
+  opacity: .7;
+
+ }
+     .error{
+      color: #ffb0b0;
+      margin-left: .5em;   }
+
+.wrapper {
+  width: 60%;
+  max-width: 1140px;
+  margin: 0 auto;/*
+  background-color: #fff;
+*/  opacity: .9;
+  -webkit-border-radius: 10px 10px;
+  .alert{
+    color: #ceeaff;
+    background-color: transparent;
+  }
+ #search input{
+    float: right;
+    margin-right: 3em;
+    color: #16293e;
+    background-color: #fafafb;
+    font-size: 1.0128em;
+    width: 8em;
+    padding: .2em;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+  div.container{
+    padding:2em;
+    border-radius: .2em;
+    input {
+      background: #fff;
+      border: 1px solid #d1d1d1;
+      color: #000;
+      font-weight: 100;
+      border-radius: .2em;
+      width: 30%;
+
+    }
+    h2 {
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #397CAC;
+    margin-top: 0;
+  }
+  div.form-inputs{
+    font-size: 1em;
+    width: 70%;
+
+    }
+    span{
+        color: red;
+        margin-left: .3em;
+      }
+    label{
+      font-size: 1.2em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      abbr {
+        color: red;
+        text-decoration: none;
+      }
+
+    }
+
+    input.clearfix{
+      height: 1.5em;
+      width: 40%;
+      float: right;
+
+
+  }
+  input[type="submit"] {
+      background: #397CAC;
+      border: none;
+      color: white;
+      font-weight: 100;
+      padding: .5em 1em;
+      border-radius: .2em;
+      float: right;
+      width: 30%;
+      margin-right: 18.5em;
+      margin-top: 1.5em;
+       &:hover, &.-active {
+        color: red;
+  }
+    }
+
+
+  }
+  #over_all_layout{
+    padding: .5em;
+    font-size: 1em;/*
+    background: #fff;*/
+    .text{
+      margin-left: 1em;
+    }
+    h1{
+      color: #fff;
+      margin-left: .5em;
+    }
+    input{
+      margin-bottom: 1em;
+      margin-top: 1em;
+      width: 97%;
+      float: right;
+      height: 1.5em;
+    }
+    label{
+      margin-left: 1em;
+      color: #fff;
+      margin-top: 2em;
+      margin-left: 2em;
+      abbr {
+        color: red;
+        text-decoration: none;
+      }
+    }
+    input[type="submit"] {
+      background: #397CAC;
+      border: none;
+      float: right;
+      color: white;
+      font-weight: 100;
+      padding: .5em 1em;
+      border-radius: .2em;
+      &:hover, &.-active {
+        color: red;
+  }
+    }
+
+
+  }
+  input {
+      background: #fff;
+      border: 1px solid #d1d1d1;
+      color: #000;
+      font-weight: 100;
+      border-radius: .2em;
+      width: 30%;
+     
+
+    }
+  input[type="submit"] {
+      background: #397CAC;
+      border: none;
+      color: white;
+      font-weight: 100;
+      padding: .5em 1em;
+      border-radius: .2em;
+    }
+  textarea {
+      width: 87%;
+      min-height: 200px;
+      border: 1px solid #d1d1d1;
+      border-radius: .2em;
+      margin: 1em;
+    }
+   h1 {
+    font-weight: 100;
+    font-size: 2em;
+    color: #397CAC;
+    margin-top: 0;
+  }
+   h2 {
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #397CAC;
+    margin-top: 0;
+  }
+  #button {
+    float: right;
+    a {
+      line-height: 60px;
+      background: #397CAC;
+      padding: .5em 1em;
+      border-radius: 0.2em;
+      color: white;
+      text-decoration: none;
+      font-weight: 100;
+       &:hover, &.-active {
+        color: red;
+  }
+    }
+  }
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.main_header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  opacity: .9;
+
+  #logo {
+    float: left;
+    a {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: -1px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      color:#2b86bf;
+      &:hover, &.-active {
+        color: red;
+        border-color: blue;
+  }
+    }
+  }
+  #buttons {
+    float: right;
+    a {
+      line-height: 60px;
+      background: #397CAC;
+      padding: .5em 1em;
+      border-radius: 0.2em;
+      color: white;
+      text-decoration: none;
+      font-weight: 100;
+      &:hover, &.-active {
+        color: #00020e;
+        background: #5a8dc1;
+  }
+    }
+    #loggedin{
+
+      p{
+        color:red; }
+      a{
+        color:#397CAC;
+        background-color: #fff;
+        margin-top: 1em;
+        &:hover, &.-active {
+        color: red;
+  }
+      }
+    }
+  }
+}
+
+#posts {
+  background: #0a2038;
+  /*background: transparent;*/
+  padding: 2em 5%;
+  border-radius: .5em;
+  .post {
+    margin: 1em 0;
+    background-color: #ffffff;
+    padding: 1em ;
+    border-bottom: 3px solid #D1d1d1;
+    border-style: solid;
+    border-bottom-width: 15px;
+    -webkit-border-radius: 10px 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    .title {
+      margin: 0;
+      a {
+        color: #2777b4;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 1.50rem;
+         &:hover, &.-active {
+        color: red;
+  }
+      }
+    }
+
+    .date {
+      margin-top: .25rem;
+      font-size: 1rem;
+      color: #646c73;
+    }
+
+  }
+}
+
+.button {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  padding: .5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+}
+#post_div {
+  background: white;
+  padding: 2em 5%;
+  border-bottom: 8px solid #15375c;
+  }
+
+#post_content {
+  background: white;
+  padding: 2em 5%;
+  border-radius: .5em;
+ h2 {
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #397CAC;
+    margin-top: 0;
+  }
+  h1 {
+    font-weight: 100;
+    font-size: 2em;
+    color: #397CAC;
+    margin-top: 0;
+  }
+  p {
+    color: #646c73;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+
+  #comments {
+    .comment {
+      border-bottom: 1px solid #d1d1d1;
+      padding: 1em;
+      background: #dbe8f1;
+      margin-bottom: 1em;
+      font-size: 0.9em;
+    }
+
+
+      .content {
+        width: 75%;
+        float: left;
+      }
+      .buttons {
+        width: 25%;
+        float: left;
+        font-size: .8em;
+        text-align: right;
+        padding-top: 1.5em;
+        a {
+          color: #397CAC;
+          border: 1px solid #397CAC;
+          padding: .5em 1em;
+          border-radius: 0.2em;
+          text-decoration: none;
+          margin-right: 2%;
+          &:hover, &.-active {
+        color: red;
+  }
+        }
+      }
+      .comment_content {
+        margin: 0;
+        padding: 0;
+        color: #282c2f
+      }
+      .comment_author {
+        color: #397CAC;
+        margin-top: .5rem;
+        font-size: 0.9em;
+        font-weight: 700;
+      }
+    }
+    input[type="submit"] {
+      background: #397CAC;
+      border: none;
+      color: white;
+      font-weight: 100;
+      padding: .2em .2em;
+      border-radius: .2em;
+      &:hover, &.-active {
+        color: red;
+  }
+    }
+    textarea {
+      width: 100%;
+      min-height: 200px;
+      border: 1px solid #d1d1d1;
+      border-radius: .2em;
+      margin: .5em 0;
+
+    }
+
+
+}
